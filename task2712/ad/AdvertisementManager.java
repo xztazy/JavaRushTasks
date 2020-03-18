@@ -42,7 +42,7 @@ public class AdvertisementManager {
         Advertisement ad = storage.list().get(--i); // взяли рекламу из списка
 
         List<Advertisement> l1 = new ArrayList<>(advertisementList);
-        System.out.println("trying " + ad.getName());
+//        System.out.println("trying " + ad.getName());
         l1.add(ad);  // сделали дубль списка для показа с добавленой взятой рекламой
 
 
@@ -93,7 +93,7 @@ public class AdvertisementManager {
         for (Advertisement a: l){
             amount += a.getAmountPerOneDisplaying();
         }
-        System.out.println(amount);
+//        System.out.println(amount);
         return amount;
     }
 }

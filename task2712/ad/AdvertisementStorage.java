@@ -7,9 +7,9 @@ public class AdvertisementStorage {
     private static AdvertisementStorage instance;
     private AdvertisementStorage(){
         Object someContent = new Object();
-        videos.add(new Advertisement(someContent, "Second Video", 100, 10, 15 * 60));
-        videos.add(new Advertisement(someContent, "Second2 Video", 1090, 1, 20 * 60));
         videos.add(new Advertisement(someContent, "Third Video", 400, 2, 10 * 60));
+        videos.add(new Advertisement(someContent, "Second2 Video", 1090, 1, 20 * 60));
+        videos.add(new Advertisement(someContent, "Second Video", 100, 10, 15 * 60));
         videos.add(new Advertisement(someContent, "First Video", 5000, 100, 3 * 60));
     };
 
